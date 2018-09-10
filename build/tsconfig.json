@@ -3,6 +3,7 @@
       // module配置很重要，千万不能配置成commonjs，热加载会失效
       "module": "es2015",
       "noImplicitAny": true,
+      "typeRoots" : ["../typings"],
       "sourceMap": true,
       "moduleResolution": "node",
       "isolatedModules": true,

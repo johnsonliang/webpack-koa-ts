@@ -3,6 +3,7 @@
       // 为了node环境能直接运行
       "module": "commonjs",
       "noImplicitAny": true,
+      "typeRoots" : ["./typings"],
       "sourceMap": true,
       "moduleResolution": "node",
       "isolatedModules": true,
