@@ -4,8 +4,11 @@ import WebpackConfig from '../build/webpack.base.conf';
 
 const devConfig = new WebpackConfig('development');
 
-webpack(devConfig).watch({
+webpack(devConfig).watch(
+  {
     aggregateTimeout: 300
-}, (err: Error) => {
+  },
+  (err: Error) => {
     console.log(err);
-});
+  }
+);

@@ -18,7 +18,7 @@ npm run build (yarn build)
 ```
 
 ``` bash
-webpack-koa-ts@1.0.0 /Users/johnsonliang/work/typescript/webpack-koa-ts
+webpack-koa-ts@1.0.0
 ├── @types/koa@2.0.46
 ├── @types/node@7.0.70
 ├── @types/webpack@4.4.11

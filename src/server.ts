@@ -7,7 +7,7 @@ let currentApp = app.callback();
 // 创建server
 const server = http.createServer(currentApp);
 server.listen(config.port);
-console.log(`app 启动监听${config.port}`)
+console.log(`app 启动监听: http://localhost:${config.port}`)
 
 // 热加载
 if (module.hot) {
